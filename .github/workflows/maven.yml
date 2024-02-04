@@ -27,7 +27,5 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
-    - name: Create native app
-      run: mvn -Dnative -DskipTests
     - name: Build image
       run: docker build -f src/main/docker/Dockerfile.multistage -t petrroda/business-rule-engine:1.0.0-SNAPSHOT .
