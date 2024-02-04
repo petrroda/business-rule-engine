@@ -27,5 +27,7 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
+    - name: Install Wrapper
+      run: mvn wrapper:wrapper
     - name: Build image
       run: docker build -f src/main/docker/Dockerfile.multi-stage -t petrroda/business-rule-engine:1.0.0-SNAPSHOT .
