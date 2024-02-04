@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "business-rule-engine"
+  labels:
+    app: business-rule-engine
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: business-rule-engine
+  template:
+    metadata:
+      labels:
+        app: business-rule-engine
+    spec:
+      containers:
+        - name: business-rule-engine
+          image: petrroda/business-rule-engine:{{ .Values.env.APP_VERSION }}
+          ports:
+            - containerPort: 8080
+          readinessProbe:
+            httpGet:
+              path: /health
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            successThreshold: 1
+            failureThreshold: 3
+          livenessProbe:
+            httpGet:
+              path: /health
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            timeoutSeconds: 5
+            successThreshold: 1
+            failureThreshold: 3
