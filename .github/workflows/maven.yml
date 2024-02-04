@@ -28,4 +28,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build image
-      run: docker build -f src/main/docker/Dockerfile.multistage -t petrroda/business-rule-engine:1.0.0-SNAPSHOT .
+      run: docker build -f src/main/docker/Dockerfile.multi-stage -t petrroda/business-rule-engine:1.0.0-SNAPSHOT .
