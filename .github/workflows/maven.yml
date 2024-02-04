@@ -30,4 +30,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package
     - name: Create native image
-      run: mvn install -Dnative -DskipTests -Dquarkus.native.container-build=true -Dquarkus.container-image.push=true
+      run: mvn install -Dnative -DskipTests
