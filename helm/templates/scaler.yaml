@@ -10,4 +10,4 @@ spec:
   - type: cpu
     metricType: Utilization # Allowed types are 'Utilization' or 'AverageValue'
     metadata:
-      value: "50
+      value: "50"
