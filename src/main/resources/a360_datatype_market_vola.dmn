@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_MARKET_VOLA" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="a360_datatype_MARKET_VOLA" name="a360_datatype_MARKET_VOLA" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_MARKET_VOLA">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="MARKET_VOLA" id="MARKET_VOLA" isCollection="false">
+<dmn:itemComponent id="C231" name="C231" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CND011" name="CND011" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUBE_ID" name="CUBE_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR001" name="CUR001" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR002" name="CUR002" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR007" name="CUR007" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR013" name="CUR013" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="D013" name="D013" isCollection="false"><dmn:typeRef>D013</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="F001" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INS003" name="INS003" isCollection="false"><dmn:typeRef>INS003</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INS232" name="INS232" isCollection="false"><dmn:typeRef>INS232</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INSTRUMENT_ID3" name="INSTRUMENT_ID3" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR011" name="MAR011" isCollection="false"><dmn:typeRef>VOLA_CONTENT_TYPE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR012" name="MAR012" isCollection="false"><dmn:typeRef>VOLA_MARKET_TYPE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR013" name="MAR013" isCollection="false"><dmn:typeRef>VOLA_OPTION_TYPE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR014" name="MAR014" isCollection="false"><dmn:typeRef>VOLA_MATURITY_TYPE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR015" name="MAR015" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR016" name="MAR016" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR017" name="MAR017" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR018" name="MAR018" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR019" name="MAR019" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MARKET_ID" name="MARKET_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT001" name="MAT001" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT120" name="MAT120" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT121" name="MAT121" isCollection="false"><dmn:typeRef>TERM_UNIT</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT910" name="MAT910" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT911" name="MAT911" isCollection="false"><dmn:typeRef>TERM_UNIT</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT912" name="MAT912" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT920" name="MAT920" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT921" name="MAT921" isCollection="false"><dmn:typeRef>TERM_UNIT</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT922" name="MAT922" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="CURRENCY_ALPHA3_ID" name="CURRENCY_ALPHA3_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_CURRENCY_ALPHA3_ID"><dmn:text>"-","AED","AFN","ALL","AMD","ANG","AOA","ARS","ATS","AUD","AWG","AZM","AZN","BAM","BBD","BDT","BEF","BGN","BHD","BIF","BMD","BND","BOB","BOV","BRL","BSD","BTN","BWP","BYN","BYR","BZD","CAD","CDF","CHE","CHF","CHW","CLF","CLP","CNY","COP","COU","CRC","CSK"</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="D013" name="D013" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_D013"><dmn:text>100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="INS003" name="INS003" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_INS003"><dmn:text>1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="INS232" name="INS232" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_INS232"><dmn:text>1,2,200,201,202,203,204,205,206,3,300,301,302,303,304,305,4</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TERM_UNIT" name="TERM_UNIT" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TERM_UNIT"><dmn:text>1,2,3,4</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="VOLA_CONTENT_TYPE" name="VOLA_CONTENT_TYPE" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_VOLA_CONTENT_TYPE"><dmn:text>"0","1","2"</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="VOLA_MARKET_TYPE" name="VOLA_MARKET_TYPE" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_VOLA_MARKET_TYPE"><dmn:text>"0","1","2","3","4","5","6","7"</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="VOLA_MATURITY_TYPE" name="VOLA_MATURITY_TYPE" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_VOLA_MATURITY_TYPE"><dmn:text>"0","1"</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="VOLA_OPTION_TYPE" name="VOLA_OPTION_TYPE" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_VOLA_OPTION_TYPE"><dmn:text>"0","1","2","3","4","5"</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+</dmn:definitions>

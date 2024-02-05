@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_MARKET_CURVE" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="a360_datatype_MARKET_CURVE" name="a360_datatype_MARKET_CURVE" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_MARKET_CURVE">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="MARKET_CURVE" id="MARKET_CURVE" isCollection="false">
+<dmn:itemComponent id="B001" name="B001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="B002" name="B002" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C222" name="C222" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR001" name="CUR001" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR002" name="CUR002" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR007" name="CUR007" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR013" name="CUR013" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CURVE_ID" name="CURVE_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="D013" name="D013" isCollection="false"><dmn:typeRef>D013</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="F001" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INSTRUMENT_ID3" name="INSTRUMENT_ID3" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INT134" name="INT134" isCollection="false"><dmn:typeRef>DAY_COUNT_CONVENTION</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INT900" name="INT900" isCollection="false"><dmn:typeRef>COMPOUNDING</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INT901" name="INT901" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INT902" name="INT902" isCollection="false"><dmn:typeRef>TERM_UNIT</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INT903" name="INT903" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INT905" name="INT905" isCollection="false"><dmn:typeRef>COMPOUNDING</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR006" name="MAR006" isCollection="false"><dmn:typeRef>CURVE_CONTENT_TYPE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR007" name="MAR007" isCollection="false"><dmn:typeRef>MARKET</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR008" name="MAR008" isCollection="false"><dmn:typeRef>SUBMARKET</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR009" name="MAR009" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAR010" name="MAR010" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MARKET_ID" name="MARKET_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT001" name="MAT001" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT120" name="MAT120" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT121" name="MAT121" isCollection="false"><dmn:typeRef>TERM_UNIT</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT900" name="MAT900" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT901" name="MAT901" isCollection="false"><dmn:typeRef>TERM_UNIT</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT902" name="MAT902" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT908" name="MAT908" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="RLV009" name="RLV009" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="RLV047" name="RLV047" isCollection="false"><dmn:typeRef>RELEVANCE_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="SCENARIO_NAME" name="SCENARIO_NAME" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="COMPOUNDING" name="COMPOUNDING" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_COMPOUNDING"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="CURRENCY_ALPHA3_ID" name="CURRENCY_ALPHA3_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_CURRENCY_ALPHA3_ID"><dmn:text>"-","AED","AFN","ALL","AMD","ANG","AOA","ARS","ATS","AUD","AWG","AZM","AZN","BAM","BBD","BDT","BEF","BGN","BHD","BIF","BMD","BND","BOB","BOV","BRL","BSD","BTN","BWP","BYN","BYR","BZD","CAD","CDF","CHE","CHF","CHW","CLF","CLP","CNY","COP","COU","CRC","CSK"</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="CURVE_CONTENT_TYPE" name="CURVE_CONTENT_TYPE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_CURVE_CONTENT_TYPE"><dmn:text>0,1,2,3,4,5,6</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="D013" name="D013" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_D013"><dmn:text>100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="DAY_COUNT_CONVENTION" name="DAY_COUNT_CONVENTION" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_DAY_COUNT_CONVENTION"><dmn:text>0,1,10,11,12,13,14,15,16,17,18,19,2,20,21,22,23,24,25,26,27,3,4,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="MARKET" name="MARKET" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_MARKET"><dmn:text>0,1,2,3,4,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="RELEVANCE_FLAG" name="RELEVANCE_FLAG" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_RELEVANCE_FLAG"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="RELEVANCE_MODULE" name="RELEVANCE_MODULE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_RELEVANCE_MODULE"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="SUBMARKET" name="SUBMARKET" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_SUBMARKET"><dmn:text>0,1,2,3,4,5,6</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TERM_UNIT" name="TERM_UNIT" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TERM_UNIT"><dmn:text>1,2,3,4</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+</dmn:definitions>

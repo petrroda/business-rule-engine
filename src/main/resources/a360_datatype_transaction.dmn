@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_TRANSACTION" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="a360_datatype_TRANSACTION" name="a360_datatype_TRANSACTION" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_TRANSACTION">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="TRANSACTION" id="TRANSACTION" isCollection="false">
+<dmn:itemComponent id="C014" name="C014" isCollection="false"><dmn:typeRef>C014</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C016" name="C016" isCollection="false"><dmn:typeRef>C016</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C017" name="C017" isCollection="false"><dmn:typeRef>C017</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C072" name="C072" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C181" name="C181" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C182" name="C182" isCollection="false"><dmn:typeRef>C182</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C188" name="C188" isCollection="false"><dmn:typeRef>C188</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C188_LU" name="C188_LU" isCollection="false"><dmn:typeRef>C188_LU</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C188_NL" name="C188_NL" isCollection="false"><dmn:typeRef>C188_NL</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C195" name="C195" isCollection="false"><dmn:typeRef>C195</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C201" name="C201" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C202" name="C202" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C203" name="C203" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C231" name="C231" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C240" name="C240" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C259" name="C259" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C261" name="C261" isCollection="false"><dmn:typeRef>C261</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C290" name="C290" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C292" name="C292" isCollection="false"><dmn:typeRef>C292</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CTY010" name="CTY010" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CTY410" name="CTY410" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CTY411" name="CTY411" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CTY415" name="CTY415" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CTY420" name="CTY420" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CTY421" name="CTY421" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CTY422" name="CTY422" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CTY423" name="CTY423" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CTY430" name="CTY430" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CTY431" name="CTY431" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CTY440" name="CTY440" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR007" name="CUR007" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR400" name="CUR400" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR413" name="CUR413" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR415" name="CUR415" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="D179" name="D179" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="D505" name="D505" isCollection="false"><dmn:typeRef>D505</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="E008" name="E008" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="E009" name="E009" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="F001" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="IDN278" name="IDN278" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INS516" name="INS516" isCollection="false"><dmn:typeRef>INS516</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INSTRUMENT_ID3" name="INSTRUMENT_ID3" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="J303" name="J303" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="J304" name="J304" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="J305" name="J305" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="J306" name="J306" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="J341" name="J341" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="J342" name="J342" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="J343" name="J343" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT311" name="MAT311" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT400" name="MAT400" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT401" name="MAT401" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT402" name="MAT402" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT408" name="MAT408" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="PER413" name="PER413" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="PER415" name="PER415" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="POA508" name="POA508" isCollection="false"><dmn:typeRef>POA508</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="POSITION_ID3" name="POSITION_ID3" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="POSITION_ID4" name="POSITION_ID4" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="PRD413" name="PRD413" isCollection="false"><dmn:typeRef>PRD413</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="PTY001" name="PTY001" isCollection="false"><dmn:typeRef>PTY001</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="PTY002" name="PTY002" isCollection="false"><dmn:typeRef>PTY002</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="RLV009" name="RLV009" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="RLV403" name="RLV403" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="SIE108" name="SIE108" isCollection="false"><dmn:typeRef>SIE108</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="SIE421" name="SIE421" isCollection="false"><dmn:typeRef>SIE421</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TRA021" name="TRA021" isCollection="false"><dmn:typeRef>TRA021</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TRA030" name="TRA030" isCollection="false"><dmn:typeRef>TRA030</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TRA184" name="TRA184" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TRA205" name="TRA205" isCollection="false"><dmn:typeRef>TRA205</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TRA216" name="TRA216" isCollection="false"><dmn:typeRef>TRA216</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TRA405" name="TRA405" isCollection="false"><dmn:typeRef>YES_NO_FLAG_TRUE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TRA407" name="TRA407" isCollection="false"><dmn:typeRef>TRA407</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TRANS_GROUP_ID" name="TRANS_GROUP_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TRANSACTION_ID" name="TRANSACTION_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TTY001" name="TTY001" isCollection="false"><dmn:typeRef>TTY001</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TTY002" name="TTY002" isCollection="false"><dmn:typeRef>TTY002</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TTY003" name="TTY003" isCollection="false"><dmn:typeRef>TTY003</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TTY122" name="TTY122" isCollection="false"><dmn:typeRef>TTY122</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TTY132" name="TTY132" isCollection="false"><dmn:typeRef>TTY132</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TTY135" name="TTY135" isCollection="false"><dmn:typeRef>TTY135</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TTY141" name="TTY141" isCollection="false"><dmn:typeRef>TTY141</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TTY151" name="TTY151" isCollection="false"><dmn:typeRef>TTY151</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TTY405" name="TTY405" isCollection="false"><dmn:typeRef>TTY405</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TTY943" name="TTY943" isCollection="false"><dmn:typeRef>TTY943</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TYP019" name="TYP019" isCollection="false"><dmn:typeRef>TYP019</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TYP023" name="TYP023" isCollection="false"><dmn:typeRef>TYP023</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TYP024" name="TYP024" isCollection="false"><dmn:typeRef>TYP024</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TYP088" name="TYP088" isCollection="false"><dmn:typeRef>YES_NO_FLAG_FALSE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="VAL222" name="VAL222" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="VAL400" name="VAL400" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="VAL413" name="VAL413" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="VAL415" name="VAL415" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="VOUCHERTYPE" name="VOUCHERTYPE" isCollection="false"><dmn:typeRef>VOUCHERTYPE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="Z103" name="Z103" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="Z110" name="Z110" isCollection="false"><dmn:typeRef>Z110</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="Z111" name="Z111" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="Z115" name="Z115" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="Z118" name="Z118" isCollection="false"><dmn:typeRef>Z118</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="Z119" name="Z119" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="Z121" name="Z121" isCollection="false"><dmn:typeRef>Z121</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="Z123" name="Z123" isCollection="false"><dmn:typeRef>Z123</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="Z207" name="Z207" isCollection="false"><dmn:typeRef>Z207</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="Z217" name="Z217" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="Z219" name="Z219" isCollection="false"><dmn:typeRef>Z219</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="C014" name="C014" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_C014"><dmn:text>"001","002","003","004","005","006","007","008","009","010","100","101","102","103","104","200","300","301","302","303","304","400","401","402","403","404"</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="C016" name="C016" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_C016"><dmn:text>"000","001","002","003","004","005","006","007","008","009","010","011","012","013","014","015","016","017","018","019","020","021","022","023","024","025","026","027","028","029","030","031","032","033","034","035","036","040","041","042","043","044","04</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="C017" name="C017" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_C017"><dmn:text>"000","001","006","007","008","010","011","012","013","014","015","016","017","018","019","020","021","022","023","024","025","026","027","040","041","070","071","072","073","074","075","076","077","078","081","082","083","084","085","200","201","211","22</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="C182" name="C182" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_C182"><dmn:text>0,1,2,3,4</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="C188" name="C188" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_C188"><dmn:text>"003","013","014","017","081","082","101","102","104","105","106","107","108","110","111","112","123","129","132","133","134","136","139","140","141","143","144","145","146","147","148","150","151","152","155","157","163","172","175","176","178","179","18</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="C188_LU" name="C188_LU" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_C188_LU"><dmn:text>"011","019","029","059","071","072","073","080","090","091","092","093","094","097","098","099","100","101","102","110","111","112","120","121","122","130","131","142","143","144","156","162","163","170","180","181","182","183","184","185","186","187","18</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="C188_NL" name="C188_NL" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_C188_NL"><dmn:text>"NPC","SF11Y","SF11Z","SF12Y","SF12Z","SF13Y","SF13Z","SF2Y","SF2Z","SF3","SF41Y","SF41Z","SG1","SH12","SH13","SH21","SH22","SH3","SH4","SI1","SI21Y","SI21Z","SI2X","SJ111","SJ112","SJ211","SJ212","SJ213","SJ22","SJ33","SJ35","SK11Y","SK11Z","SK1X"</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="C195" name="C195" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_C195"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="C261" name="C261" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_C261"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="C292" name="C292" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_C292"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="COUNTRY_ALPHA2_ID" name="COUNTRY_ALPHA2_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_COUNTRY_ALPHA2_ID"><dmn:text>"-","1C","1D","1E","1F","1H","1J","1K","1L","1M","1N","1O","1P","1Q","1R","1S","1T","1U","4B","4C","4F","4G","4H","4J","4M","4S","4U","4W","4Z","5B","5C","5D","5E","5F","5G","5H","5J","5K","5L","5M","5Q","5R","5T","5U","5X","5Z","6B","6C","6D","6E","6F","</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="CURRENCY_ALPHA3_ID" name="CURRENCY_ALPHA3_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_CURRENCY_ALPHA3_ID"><dmn:text>"-","AED","AFN","ALL","AMD","ANG","AOA","ARS","ATS","AUD","AWG","AZM","AZN","BAM","BBD","BDT","BEF","BGN","BHD","BIF","BMD","BND","BOB","BOV","BRL","BSD","BTN","BWP","BYN","BYR","BZD","CAD","CDF","CHE","CHF","CHW","CLF","CLP","CNY","COP","COU","CRC","CSK"</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="D505" name="D505" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_D505"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="INS516" name="INS516" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_INS516"><dmn:text>0,1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="POA508" name="POA508" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_POA508"><dmn:text>0,1,2,3,4</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="PRD413" name="PRD413" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_PRD413"><dmn:text>12130,12140,12150,21000,22100,22140,42130,42140,42150</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="PTY001" name="PTY001" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_PTY001"><dmn:text>1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="PTY002" name="PTY002" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_PTY002"><dmn:text>1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="RELEVANCE_MODULE" name="RELEVANCE_MODULE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_RELEVANCE_MODULE"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="SIE108" name="SIE108" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_SIE108"><dmn:text>0,10,20,30,31,40</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="SIE421" name="SIE421" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_SIE421"><dmn:text>"1353","1406","1520","1711","1731","1740","1750","1761","1771","1799","2741","2791","2842","4011","4111","4112","4119","4121","4131","4214","4215","4225","4411","4457","4468","4511","4582","4722","4723","4784","4789","4812","4813","4814","4815","4816","48</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TRA021" name="TRA021" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TRA021"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TRA030" name="TRA030" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TRA030"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TRA205" name="TRA205" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TRA205"><dmn:text>0,1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TRA216" name="TRA216" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TRA216"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TRA407" name="TRA407" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TRA407"><dmn:text>0,1,2,3,5,6,7,8</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TTY001" name="TTY001" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TTY001"><dmn:text>100,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,200,300,400,500,600,700,800,900</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TTY002" name="TTY002" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TTY002"><dmn:text>10,11,12,19,21,22,23,31,32,34,41,43,44,45</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TTY003" name="TTY003" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TTY003"><dmn:text>1,10,11,12,13,2,3,4,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TTY122" name="TTY122" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TTY122"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TTY132" name="TTY132" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TTY132"><dmn:text>1,10,11,2,3,4,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TTY135" name="TTY135" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TTY135"><dmn:text>1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TTY141" name="TTY141" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TTY141"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TTY151" name="TTY151" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TTY151"><dmn:text>0,11,14,21</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TTY405" name="TTY405" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TTY405"><dmn:text>1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TTY943" name="TTY943" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TTY943"><dmn:text>0,105,106,107,110,115,116,117,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,148,149</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TYP019" name="TYP019" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TYP019"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TYP023" name="TYP023" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TYP023"><dmn:text>902,903,907,908,909,920,921,922,930,931,933,934,938,951,952,961,962,963,966,973,974,980</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TYP024" name="TYP024" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TYP024"><dmn:text>10,15,16,2,25,3,31,32,33,34,39,4,41,42,44,45,46,5,6,60,63,7,71,8,9000,9020,91,92,93,9300,9301,94,95,9610,9630,99</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="VOUCHERTYPE" name="VOUCHERTYPE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_VOUCHERTYPE"><dmn:text>1,2,3,4,5,6</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="YES_NO_FLAG" name="YES_NO_FLAG" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_YES_NO_FLAG"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="YES_NO_FLAG_FALSE" name="YES_NO_FLAG_FALSE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_YES_NO_FLAG_FALSE"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="YES_NO_FLAG_TRUE" name="YES_NO_FLAG_TRUE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_YES_NO_FLAG_TRUE"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="Z110" name="Z110" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_Z110"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="Z118" name="Z118" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_Z118"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="Z121" name="Z121" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_Z121"><dmn:text>1,2,3,4</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="Z123" name="Z123" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_Z123"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="Z207" name="Z207" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_Z207"><dmn:text>0,1,10,11,12,13,14,15,16,17,18,2,3,4,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="Z219" name="Z219" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_Z219"><dmn:text>0,1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+</dmn:definitions>

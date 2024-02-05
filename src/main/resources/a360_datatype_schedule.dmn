@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_SCHEDULE" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="a360_datatype_SCHEDULE" name="a360_datatype_SCHEDULE" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_SCHEDULE">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="SCHEDULE" id="SCHEDULE" isCollection="false">
+<dmn:itemComponent id="C208" name="C208" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="C240" name="C240" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CFV281" name="CFV281" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CND011" name="CND011" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CND012" name="CND012" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CND013" name="CND013" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CND014" name="CND014" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CND015" name="CND015" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CND016" name="CND016" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CND017" name="CND017" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CND020" name="CND020" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CND024" name="CND024" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CND053" name="CND053" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CND054" name="CND054" isCollection="false"><dmn:typeRef>DAY_COUNT_CONVENTION</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR013" name="CUR013" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CUR380" name="CUR380" isCollection="false"><dmn:typeRef>CURRENCY_ALPHA3_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="D013" name="D013" isCollection="false"><dmn:typeRef>D013</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="F001" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INF030" name="INF030" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INS104" name="INS104" isCollection="false"><dmn:typeRef>INS104</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INSTRUMENT_ID3" name="INSTRUMENT_ID3" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INT049" name="INT049" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INT051" name="INT051" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INT052" name="INT052" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INT134" name="INT134" isCollection="false"><dmn:typeRef>DAY_COUNT_CONVENTION</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INT204" name="INT204" isCollection="false"><dmn:typeRef>INT204</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INT913" name="INT913" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT120" name="MAT120" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT121" name="MAT121" isCollection="false"><dmn:typeRef>TERM_UNIT</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT130" name="MAT130" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT131" name="MAT131" isCollection="false"><dmn:typeRef>FREQUENCY_UNIT</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT132" name="MAT132" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT133" name="MAT133" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT135" name="MAT135" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT140" name="MAT140" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT141" name="MAT141" isCollection="false"><dmn:typeRef>FREQUENCY_UNIT</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT144" name="MAT144" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT145" name="MAT145" isCollection="false"><dmn:typeRef>OFFSET_TYPE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT146" name="MAT146" isCollection="false"><dmn:typeRef>BUSINESS_DAY_CONVENTION</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT147" name="MAT147" isCollection="false"><dmn:typeRef>PERIOD_CONVENTION</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT148" name="MAT148" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT150" name="MAT150" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT151" name="MAT151" isCollection="false"><dmn:typeRef>FREQUENCY_UNIT</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT154" name="MAT154" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT155" name="MAT155" isCollection="false"><dmn:typeRef>OFFSET_TYPE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT156" name="MAT156" isCollection="false"><dmn:typeRef>BUSINESS_DAY_CONVENTION</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT157" name="MAT157" isCollection="false"><dmn:typeRef>PERIOD_CONVENTION</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT158" name="MAT158" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT159" name="MAT159" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT160" name="MAT160" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT161" name="MAT161" isCollection="false"><dmn:typeRef>FREQUENCY_UNIT</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT164" name="MAT164" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT165" name="MAT165" isCollection="false"><dmn:typeRef>OFFSET_TYPE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT166" name="MAT166" isCollection="false"><dmn:typeRef>BUSINESS_DAY_CONVENTION</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT167" name="MAT167" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT168" name="MAT168" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT169" name="MAT169" isCollection="false"><dmn:typeRef>FREQUENCY_UNIT</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT380" name="MAT380" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT381" name="MAT381" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="MAT382" name="MAT382" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="PER380" name="PER380" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="RLV009" name="RLV009" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="STY001" name="STY001" isCollection="false"><dmn:typeRef>STY001</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TYP019" name="TYP019" isCollection="false"><dmn:typeRef>TYP019</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TYP023" name="TYP023" isCollection="false"><dmn:typeRef>TYP023</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="TYP088" name="TYP088" isCollection="false"><dmn:typeRef>YES_NO_FLAG_FALSE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="VAL020" name="VAL020" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="VAL021" name="VAL021" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="VAL022" name="VAL022" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="VAL313" name="VAL313" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="VAL380" name="VAL380" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="Z015" name="Z015" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="BUSINESS_DAY_CONVENTION" name="BUSINESS_DAY_CONVENTION" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_BUSINESS_DAY_CONVENTION"><dmn:text>0,1,2,3,4,5,6</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="CURRENCY_ALPHA3_ID" name="CURRENCY_ALPHA3_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_CURRENCY_ALPHA3_ID"><dmn:text>"-","AED","AFN","ALL","AMD","ANG","AOA","ARS","ATS","AUD","AWG","AZM","AZN","BAM","BBD","BDT","BEF","BGN","BHD","BIF","BMD","BND","BOB","BOV","BRL","BSD","BTN","BWP","BYN","BYR","BZD","CAD","CDF","CHE","CHF","CHW","CLF","CLP","CNY","COP","COU","CRC","CSK"</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="D013" name="D013" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_D013"><dmn:text>100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="DAY_COUNT_CONVENTION" name="DAY_COUNT_CONVENTION" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_DAY_COUNT_CONVENTION"><dmn:text>0,1,10,11,12,13,14,15,16,17,18,19,2,20,21,22,23,24,25,26,27,3,4,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="FREQUENCY_UNIT" name="FREQUENCY_UNIT" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_FREQUENCY_UNIT"><dmn:text>0,1,2,3,4,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="INS104" name="INS104" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_INS104"><dmn:text>1,2,3,4,5,51,52</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="INT204" name="INT204" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_INT204"><dmn:text>0,10,15,20,25</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="OFFSET_TYPE" name="OFFSET_TYPE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_OFFSET_TYPE"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="PERIOD_CONVENTION" name="PERIOD_CONVENTION" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_PERIOD_CONVENTION"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="RELEVANCE_MODULE" name="RELEVANCE_MODULE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_RELEVANCE_MODULE"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="STY001" name="STY001" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_STY001"><dmn:text>1,10,11,12,13,14,15,16,17,18,19,2,20,21,22,23,24,25,26,27,28,3,4,41,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TERM_UNIT" name="TERM_UNIT" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TERM_UNIT"><dmn:text>1,2,3,4</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TYP019" name="TYP019" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TYP019"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="TYP023" name="TYP023" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TYP023"><dmn:text>902,903,907,908,909,920,921,922,930,931,933,934,938,951,952,961,962,963,966,973,974,980</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="YES_NO_FLAG" name="YES_NO_FLAG" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_YES_NO_FLAG"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="YES_NO_FLAG_FALSE" name="YES_NO_FLAG_FALSE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_YES_NO_FLAG_FALSE"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+</dmn:definitions>

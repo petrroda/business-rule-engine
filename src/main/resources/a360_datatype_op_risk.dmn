@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_OP_RISK" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="a360_datatype_OP_RISK" name="a360_datatype_OP_RISK" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_OP_RISK">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="OP_RISK" id="OP_RISK" isCollection="false">
+<dmn:itemComponent id="F001" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="I205" name="I205" isCollection="false"><dmn:typeRef>I205</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="INF030" name="INF030" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="O001" name="O001" isCollection="false"><dmn:typeRef>O001</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="O003" name="O003" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="O004" name="O004" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="O005" name="O005" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="O006" name="O006" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="O007" name="O007" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="O008" name="O008" isCollection="false"><dmn:typeRef>O008</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="OP_RISK_ID" name="OP_RISK_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="OPR001" name="OPR001" isCollection="false"><dmn:typeRef>OPR001</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="RLV009" name="RLV009" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="I205" name="I205" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_I205"><dmn:text>1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="O001" name="O001" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_O001"><dmn:text>0,10,20,30,40,50,60,70,80</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="O008" name="O008" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_O008"><dmn:text>0,1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="OPR001" name="OPR001" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_OPR001"><dmn:text>10,11,12,13,20,21,22,23,24,30,31,32</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="RELEVANCE_MODULE" name="RELEVANCE_MODULE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_RELEVANCE_MODULE"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+</dmn:definitions>

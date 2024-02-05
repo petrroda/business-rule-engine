@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_IDENTIFIER" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="a360_datatype_IDENTIFIER" name="a360_datatype_IDENTIFIER" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_IDENTIFIER">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="IDENTIFIER" id="IDENTIFIER" isCollection="false">
+<dmn:itemComponent id="F001" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="IDN010" name="IDN010" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="IDT010" name="IDT010" isCollection="false"><dmn:typeRef>IDT010</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="IDT011" name="IDT011" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="PARTNER_ID3" name="PARTNER_ID3" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="PRIO_AC" name="PRIO_AC" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="IDT010" name="IDT010" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_IDT010"><dmn:text>"AE_BREG","AR_TAX","AT_AREG","AT_BREG","AT_NA","AT_NCB","AT_PSE_FED","AT_PSE_MUN","AU_BREG_BN","AU_BREG_CN","BA_BREG","BA_TAX","BA_TREG","BE_BREG","BE_NIN","BG_NIN","BG_PRI","BG_TREG","BG_VAT","BM_BREG","BR_BREG","BREG_OTHER","BS_BREG","BY_BREG","BZ_TAX",</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+</dmn:definitions>
