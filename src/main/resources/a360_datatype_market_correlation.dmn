@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_MARKET_CORRELATION" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="a360_datatype_MARKET_CORRELATION" name="a360_datatype_MARKET_CORRELATION" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_MARKET_CORRELATION">
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_MARKET_CORRELATION" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="B5888913-5E22-4789-9D31-B67C67BA5911" name="a360_datatype_MARKET_CORRELATION" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/9C08E805-D587-4C7E-ACED-16ACD176EF9B">
 <dmn:extensionElements/>
-<dmn:itemDefinition name="MARKET_CORRELATION" id="MARKET_CORRELATION" isCollection="false">
-<dmn:itemComponent id="F001" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="INSTRUMENT_ID3" name="INSTRUMENT_ID3" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="INSTRUMENT_ID4" name="INSTRUMENT_ID4" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="MAR018" name="MAR018" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="MAR020" name="MAR020" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="MARKET_ID" name="MARKET_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="MAT001" name="MAT001" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="MAT930" name="MAT930" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="MAT931" name="MAT931" isCollection="false"><dmn:typeRef>TERM_UNIT_WITH_SUM</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="MAT940" name="MAT940" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="MAT941" name="MAT941" isCollection="false"><dmn:typeRef>TERM_UNIT_WITH_SUM</dmn:typeRef></dmn:itemComponent>
+<dmn:itemDefinition name="MARKET_CORRELATION" id="241A998A-68AE-477C-A97E-811B7DA8CFAA" isCollection="false">
+<dmn:itemComponent id="39DA6E55-D7C8-4A2A-BB11-7D5325AF625C" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="A44E5685-F222-43AC-B8BB-12308CA5F17F" name="INSTRUMENT_ID3" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="154E3AA3-6928-429E-9E31-6183687A0477" name="INSTRUMENT_ID4" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="A209935B-DA43-4334-B248-11634182BA51" name="MAR018" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="75269440-08AE-47D7-B484-3276D8BDCF55" name="MAR020" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="BCE619E8-A13F-4988-9942-4D626786D60B" name="MARKET_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="96C97BE9-9519-4048-9845-C986CB291215" name="MAT001" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="6A11476E-49F5-441A-ADCD-979376BCDB37" name="MAT930" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="50AB2AB0-39DA-46E5-9D7C-8A2ADB117D53" name="MAT931" isCollection="false"><dmn:typeRef>TERM_UNIT_WITH_SUM</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="25AF625C-A44E-4568-9F22-23ACE8BB1230" name="MAT940" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="8CA5F17F-154E-43AA-9692-829E7E316183" name="MAT941" isCollection="false"><dmn:typeRef>TERM_UNIT_WITH_SUM</dmn:typeRef></dmn:itemComponent>
 </dmn:itemDefinition>
-<dmn:itemDefinition id="TERM_UNIT_WITH_SUM" name="TERM_UNIT_WITH_SUM" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TERM_UNIT_WITH_SUM"><dmn:text>0,1,2,3,4</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="4292BB52-8537-4A55-819B-F8E8F5854287" name="TERM_UNIT_WITH_SUM" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="D9CDC166-CC07-42AF-AB14-1A8989535E72"><dmn:text>0,1,2,3,4</dmn:text></dmn:allowedValues></dmn:itemDefinition>
 </dmn:definitions>

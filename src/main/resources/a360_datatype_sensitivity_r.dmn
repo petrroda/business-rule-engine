@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_SENSITIVITY_R" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="a360_datatype_SENSITIVITY_R" name="a360_datatype_SENSITIVITY_R" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_SENSITIVITY_R">
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_SENSITIVITY_R" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="08CA5F17-F158-4E3E-A3A9-2C2DE7E3165C" name="a360_datatype_SENSITIVITY_R" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/3A87A04B-7A1F-4893-ABDA-47778F24C116">
 <dmn:extensionElements/>
-<dmn:itemDefinition name="SENSITIVITY_R" id="SENSITIVITY_R" isCollection="false">
-<dmn:itemComponent id="DESK_ID" name="DESK_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="F001" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="IDN295" name="IDN295" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="PER290" name="PER290" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SENSITIVITY_ID" name="SENSITIVITY_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SENSITIVITY_R_ID" name="SENSITIVITY_R_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="TYP290" name="TYP290" isCollection="false"><dmn:typeRef>TYP290</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="TYP295" name="TYP295" isCollection="false"><dmn:typeRef>TYP295</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="TYP296" name="TYP296" isCollection="false"><dmn:typeRef>TYP296</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="TYP297" name="TYP297" isCollection="false"><dmn:typeRef>TYP297</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="TYP298" name="TYP298" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="TYP299" name="TYP299" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="VAL290" name="VAL290" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="VAL291" name="VAL291" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="VAL292" name="VAL292" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="VAL293" name="VAL293" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="VAL295" name="VAL295" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="VAL296" name="VAL296" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="VAL297" name="VAL297" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="VAL299" name="VAL299" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="VAL300" name="VAL300" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemDefinition name="SENSITIVITY_R" id="775C2FA5-5B56-4A94-A008-AE7D7E4B476B" isCollection="false">
+<dmn:itemComponent id="45C986CB-2912-4155-A114-75E39F541ACC" name="DESK_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CD979376-BCDA-4375-8AB2-AB039DA6D55D" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="7C8929DB-107D-4532-9AF6-25CA44E4685E" name="IDN295" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="2223ACE8-BB12-4307-AA5F-16F154E3AA36" name="PER290" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="92829E7E-2161-4836-A7AF-467A1F8935BD" name="SENSITIVITY_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="A43324F2-4811-4633-882A-A51742694400" name="SENSITIVITY_R_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="8AE7D7E4-7431-476C-ABDB-F55BCE619E8A" name="TYP290" isCollection="false"><dmn:typeRef>TYP290</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="03F98879-424D-4626-986D-60B96C97BE98" name="TYP295" isCollection="false"><dmn:typeRef>TYP295</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="51904838-45C9-486C-A291-2155A11475E3" name="TYP296" isCollection="false"><dmn:typeRef>TYP296</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="9F541ACC-CD97-4937-9BCD-A3750AB2AB03" name="TYP297" isCollection="false"><dmn:typeRef>TYP297</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="9DA6D55D-7C89-429D-A107-D5325AF625CA" name="TYP298" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="44E4685E-2223-4ACE-ABB1-2307CA5F16F1" name="TYP299" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="54E3AA36-9282-49E7-B216-183687AF467A" name="VAL290" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="1F8935BD-A433-424F-8481-1633182AA517" name="VAL291" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="42694400-8AE7-4D7E-9743-176C8BDBF55B" name="VAL292" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CE619E8A-03F9-4887-A424-D626786D60B9" name="VAL293" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="6C97BE98-5190-4483-A45C-986CB2912155" name="VAL295" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="A11475E3-9F54-41AC-ACD9-79376BCDA375" name="VAL296" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="0AB2AB03-9DA6-4D55-B7C8-929DB107D532" name="VAL297" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="5AF625CA-44E4-4685-B222-3ACE8BB12307" name="VAL299" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CA5F16F1-54E3-4AA3-9928-29E7E2161836" name="VAL300" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
 </dmn:itemDefinition>
-<dmn:itemDefinition id="TYP290" name="TYP290" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TYP290"><dmn:text>1,2,3,4,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="TYP295" name="TYP295" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TYP295"><dmn:text>10,11,12,13,14,15</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="TYP296" name="TYP296" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TYP296"><dmn:text>1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="TYP297" name="TYP297" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TYP297"><dmn:text>1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="D6E872E5-2E36-411C-A58B-4A4B1511E43A" name="TYP290" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="58A9C229-9C3D-46B5-9D0C-655562F2A3E4"><dmn:text>1,2,3,4,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="553A4D87-3974-48B6-92D6-C15F51296549" name="TYP295" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="8F6DFE23-7DE1-443B-86C3-1D7AA9B64604"><dmn:text>10,11,12,13,14,15</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="489A8042-D78E-479D-87B7-3B22A5A67E7A" name="TYP296" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="8ED4B30E-38C3-4E29-912B-2363CEEE079B"><dmn:text>1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="598DEFD5-972C-4D4C-B21B-088037F5E6B4" name="TYP297" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="CFD3D503-547C-4244-9EC6-6128A7100F1C"><dmn:text>1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
 </dmn:definitions>

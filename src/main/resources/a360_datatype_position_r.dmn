@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_POSITION_R" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="a360_datatype_POSITION_R" name="a360_datatype_POSITION_R" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_POSITION_R">
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_POSITION_R" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="A6BCCA2B-4FEA-41EB-B3DD-95D48C7C891D" name="a360_datatype_POSITION_R" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/CB1F7D57-59AE-4568-AA38-D4A85E2213DB">
 <dmn:extensionElements/>
-<dmn:itemDefinition name="POSITION_R" id="POSITION_R" isCollection="false">
-<dmn:itemComponent id="B147" name="B147" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="CRI301" name="CRI301" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="CRI302" name="CRI302" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="EXC300" name="EXC300" isCollection="false"><dmn:typeRef>EXC300</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="F001" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="K150" name="K150" isCollection="false"><dmn:typeRef>K150</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="K171" name="K171" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="K250" name="K250" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="POSITION_ID" name="POSITION_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="PTY801" name="PTY801" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemDefinition name="POSITION_R" id="D7BB012F-7B95-4E06-B158-E3EA3992C2DE" isCollection="false">
+<dmn:itemComponent id="A85B86AD-884F-48E3-9273-4B875BA18F10" name="B147" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="459F0364-D28E-443F-ABBB-C868265ABCA2" name="CRI301" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="64E9A19A-E28C-495C-94C6-B7819CA0E6C4" name="CRI302" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="2149E514-B933-4D35-94D1-1129BD7AAF12" name="EXC300" isCollection="false"><dmn:typeRef>EXC300</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="E6B94EF6-E043-4D29-A258-1718D6D2F507" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="25769E35-690E-4782-9AC9-32213E1370F5" name="K150" isCollection="false"><dmn:typeRef>K150</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="22071994-0631-4583-9EE7-9D6C6D363216" name="K171" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="5C7ACAE4-4ABD-45F8-B79E-2E87768313C5" name="K250" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="15675C5E-A85B-486A-B884-F8E372734B87" name="POSITION_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="5BA18F10-459F-4036-9D28-E43F9BBBC868" name="PTY801" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
 </dmn:itemDefinition>
-<dmn:itemDefinition id="EXC300" name="EXC300" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_EXC300"><dmn:text>1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="K150" name="K150" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_K150"><dmn:text>0,10,11,20,21,31,32,33,45,50,60,70,80,85,94,95</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="YES_NO_FLAG" name="YES_NO_FLAG" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_YES_NO_FLAG"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="14276D4B-98B1-46C8-A31A-A5ACEB588891" name="EXC300" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="35E22789-6E31-4B67-B67B-A59119C08E80"><dmn:text>1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="5D597C7E-9CED-416A-BD17-6E09B241A999" name="K150" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="A68AE77C-997E-4821-A7DB-8CFAA66E15D4"><dmn:text>0,10,11,20,21,31,32,33,45,50,60,70,80,85,94,95</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="D5ADA98D-C4E2-4436-AB23-5C705E1796FE" name="YES_NO_FLAG" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="EDFA8A4C-8CDE-4C4C-920C-30D25FFB7F6A"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
 </dmn:definitions>

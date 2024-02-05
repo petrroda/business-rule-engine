@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_INVENTORY" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="a360_datatype_INVENTORY" name="a360_datatype_INVENTORY" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_INVENTORY">
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_INVENTORY" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="F512A654-98F6-4DFE-837D-E143B16C31D7" name="a360_datatype_INVENTORY" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/AA9B6470-4489-4A80-92D8-8E79D17B73B2">
 <dmn:extensionElements/>
-<dmn:itemDefinition name="INVENTORY" id="INVENTORY" isCollection="false">
-<dmn:itemComponent id="C072" name="C072" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="C201" name="C201" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="C202" name="C202" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="C240" name="C240" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="C903" name="C903" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="CTY010" name="CTY010" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="CTY340" name="CTY340" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="F001" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="INV001" name="INV001" isCollection="false"><dmn:typeRef>INV001</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="INV004" name="INV004" isCollection="false"><dmn:typeRef>INV004</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="INV020" name="INV020" isCollection="false"><dmn:typeRef>INV020</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="INV021" name="INV021" isCollection="false"><dmn:typeRef>INV021</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="INV025" name="INV025" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="INV030" name="INV030" isCollection="false"><dmn:typeRef>INV030</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="INV040" name="INV040" isCollection="false"><dmn:typeRef>INV040</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="INV108" name="INV108" isCollection="false"><dmn:typeRef>INV108</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="INVENTORY_ID" name="INVENTORY_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="RLV009" name="RLV009" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="TYP023" name="TYP023" isCollection="false"><dmn:typeRef>TYP023</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="VAL990" name="VAL990" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="Z110" name="Z110" isCollection="false"><dmn:typeRef>Z110</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="Z111" name="Z111" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="Z112" name="Z112" isCollection="false"><dmn:typeRef>Z112</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="Z114" name="Z114" isCollection="false"><dmn:typeRef>Z114</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="Z115" name="Z115" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="Z119" name="Z119" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="Z120" name="Z120" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="Z123" name="Z123" isCollection="false"><dmn:typeRef>Z123</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="Z207" name="Z207" isCollection="false"><dmn:typeRef>Z207</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="Z217" name="Z217" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemDefinition name="INVENTORY" id="2A5A67E7-A8ED-44B3-8E38-C3F29812B236" isCollection="false">
+<dmn:itemComponent id="0641ADDD-EA8A-4377-ADDB-3861BB2BC14A" name="C072" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="EA6E55D8-D9A2-4ADC-818E-6436B0635CB4" name="C201" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="5E5796F3-324A-4CE8-AC12-318CA6017026" name="C202" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="5F4BB46A-393A-4F7F-9172-84787B1577A2" name="C240" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="19A46BEB-5343-4402-9921-634292BA5285" name="C903" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="26944119-BF8D-47E5-A542-77D8BDC056CC" name="CTY010" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="F71AE9B1-3098-4889-935E-627896E71BA7" name="CTY340" isCollection="false"><dmn:typeRef>COUNTRY_ALPHA2_ID</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="DA7BE995-1914-4838-95D9-97CB3913256A" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="22586F49-0641-4ADD-BEA8-A377CDDB3861" name="INV001" isCollection="false"><dmn:typeRef>INV001</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="BB2BC14A-EA6E-455D-AD9A-2ADC218E6436" name="INV004" isCollection="false"><dmn:typeRef>INV004</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="B0635CB4-5E57-496F-9324-ACE8CC12318C" name="INV020" isCollection="false"><dmn:typeRef>INV020</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="A6017026-5F4B-4B46-A393-AF7F31728478" name="INV021" isCollection="false"><dmn:typeRef>INV021</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="7B1577A2-19A4-46BE-A534-340249216342" name="INV025" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="92BA5285-2694-4411-ABF8-D7E5854277D8" name="INV030" isCollection="false"><dmn:typeRef>INV030</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="BDC056CC-F71A-4E9B-8309-8889535E6278" name="INV040" isCollection="false"><dmn:typeRef>INV040</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="96E71BA7-DA7B-4E99-9191-483845D997CB" name="INV108" isCollection="false"><dmn:typeRef>INV108</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="3913256A-2258-46F4-A064-1ADDDEA8A377" name="INVENTORY_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CDDB3861-BB2B-4C14-AEA6-E55D8D9A2ADC" name="RLV009" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="218E6436-B063-45CB-95E5-796F3324ACE8" name="TYP023" isCollection="false"><dmn:typeRef>TYP023</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="CC12318C-A601-4702-95F4-BB46A393AF7F" name="VAL990" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="31728478-7B15-477A-819A-46BEB5343402" name="Z110" isCollection="false"><dmn:typeRef>Z110</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="49216342-92BA-4528-9269-44119BF8D7E5" name="Z111" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="854277D8-BDC0-456C-AF71-AE9B13098889" name="Z112" isCollection="false"><dmn:typeRef>Z112</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="535E6278-96E7-41BA-9DA7-BE9951914838" name="Z114" isCollection="false"><dmn:typeRef>Z114</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="45D997CB-3913-4256-A225-86F490641ADD" name="Z115" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="DEA8A377-CDDB-4386-8BB2-BC14AEA6E55D" name="Z119" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="8D9A2ADC-218E-4643-9B06-35CB45E5796F" name="Z120" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="3324ACE8-CC12-4318-AA60-170265F4BB46" name="Z123" isCollection="false"><dmn:typeRef>Z123</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="A393AF7F-3172-4847-A7B1-577A219A46BE" name="Z207" isCollection="false"><dmn:typeRef>Z207</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="B5343402-4921-4634-892B-A52852694411" name="Z217" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
 </dmn:itemDefinition>
-<dmn:itemDefinition id="COUNTRY_ALPHA2_ID" name="COUNTRY_ALPHA2_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_COUNTRY_ALPHA2_ID"><dmn:text>"-","1C","1D","1E","1F","1H","1J","1K","1L","1M","1N","1O","1P","1Q","1R","1S","1T","1U","4B","4C","4F","4G","4H","4J","4M","4S","4U","4W","4Z","5B","5C","5D","5E","5F","5G","5H","5J","5K","5L","5M","5Q","5R","5T","5U","5X","5Z","6B","6C","6D","6E","6F","</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="INV001" name="INV001" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_INV001"><dmn:text>11,12,19,21,22,23,29,31,32,33,34,35,36,37,41,42,51</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="INV004" name="INV004" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_INV004"><dmn:text>0,1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="INV020" name="INV020" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_INV020"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="INV021" name="INV021" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_INV021"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="INV030" name="INV030" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_INV030"><dmn:text>0,1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="INV040" name="INV040" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_INV040"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="INV108" name="INV108" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_INV108"><dmn:text>0,10,20,30,31,40</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="RELEVANCE_MODULE" name="RELEVANCE_MODULE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_RELEVANCE_MODULE"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="TYP023" name="TYP023" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TYP023"><dmn:text>902,903,907,908,909,920,921,922,930,931,933,934,938,951,952,961,962,963,966,973,974,980</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="YES_NO_FLAG" name="YES_NO_FLAG" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_YES_NO_FLAG"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="Z110" name="Z110" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_Z110"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="Z112" name="Z112" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_Z112"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="Z114" name="Z114" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_Z114"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="Z123" name="Z123" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_Z123"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="Z207" name="Z207" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_Z207"><dmn:text>0,1,10,11,12,13,14,15,16,17,18,2,3,4,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="9C931112-DBD7-4FA0-82F7-0943F6304722" name="COUNTRY_ALPHA2_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="EA29D2B1-CD63-4205-9B29-BADE4AAD1E8C"><dmn:text>"-","1C","1D","1E","1F","1H","1J","1K","1L","1M","1N","1O","1P","1Q","1R","1S","1T","1U","4B","4C","4F","4G","4H","4J","4M","4S","4U","4W","4Z","5B","5C","5D","5E","5F","5G","5H","5J","5K","5L","5M","5Q","5R","5T","5U","5X","5Z","6B","6C","6D","6E","6F","</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="38EC9366-6731-43C0-8567-4B1E945B459C" name="INV001" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="373E7ED6-1623-4B37-9A91-7ECBE48EBE54"><dmn:text>11,12,19,21,22,23,29,31,32,33,34,35,36,37,41,42,51</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="CD7DF2E8-BBAC-4468-855A-BB9163E9909A" name="INV004" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="ED8C44CE-3B2B-4380-ABAF-A2CF2049D013"><dmn:text>0,1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="A923CE57-4DCC-4BD8-AC2A-AEBCA2A44DA1" name="INV020" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DBF3DD99-2481-4718-B1DC-A1F625659EE5"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="58F93724-9C93-4111-8DBD-7FA012F70943" name="INV021" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="F6304722-EA29-4D2B-8CD6-32054B29BADE"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="4AAD1E8C-38EC-4936-9673-13C005674B1E" name="INV030" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="945B459C-373E-47ED-9162-3B375A917ECB"><dmn:text>0,1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="E48EBE54-CD7D-4F2E-ABBA-C468155ABB91" name="INV040" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="63E9909A-ED8C-444C-B3B2-B3808BAFA2CF"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="2049D013-A923-4CE5-94DC-CBD8AC2AAEBC" name="INV108" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="A2A44DA1-DBF3-4DD9-A248-1718D1DCA1F6"><dmn:text>0,10,20,30,31,40</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="25659EE5-58F9-4372-99C9-31112DBD7FA0" name="RELEVANCE_MODULE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="12F70943-F630-4472-8EA2-9D2B1CD63205"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="4B29BADE-4AAD-41E8-A38E-C936667313C0" name="TYP023" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="05674B1E-945B-4459-A373-E7ED61623B37"><dmn:text>902,903,907,908,909,920,921,922,930,931,933,934,938,951,952,961,962,963,966,973,974,980</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="5A917ECB-E48E-4BE5-9CD7-DF2E8BBAC468" name="YES_NO_FLAG" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="155ABB91-63E9-4909-AED8-C44CE3B2B380"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="8BAFA2CF-2049-4D01-9A92-3CE574DCCBD8" name="Z110" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="AC2AAEBC-A2A4-44DA-8DBF-3DD992481718"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="D1DCA1F6-2565-49EE-958F-937249C93111" name="Z112" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="2DBD7FA0-12F7-4094-9F63-04722EA29D2B"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="1CD63205-4B29-4BAD-B4AA-D1E8C38EC936" name="Z114" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="667313C0-0567-44B1-B945-B459C373E7ED"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="61623B37-5A91-47EC-AE48-EBE54CD7DF2E" name="Z123" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="8BBAC468-155A-4BB9-863E-9909AED8C44C"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="E3B2B380-8BAF-4A2C-B204-9D013A923CE5" name="Z207" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="74DCCBD8-AC2A-4AEB-AA2A-44DA1DBF3DD9"><dmn:text>0,1,10,11,12,13,14,15,16,17,18,2,3,4,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
 </dmn:definitions>

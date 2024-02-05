@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_POSITION_TO_PORTFOLIO" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="a360_datatype_POSITION_TO_PORTFOLIO" name="a360_datatype_POSITION_TO_PORTFOLIO" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_POSITION_TO_PORTFOLIO">
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/a360_datatype_POSITION_TO_PORTFOLIO" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="15F51296-5398-4E6D-BD23-7DE143B16C21" name="a360_datatype_POSITION_TO_PORTFOLIO" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/D7AA9B64-6044-489A-AF42-D78E79D17A73">
 <dmn:extensionElements/>
-<dmn:itemDefinition name="POSITION_TO_PORTFOLIO" id="POSITION_TO_PORTFOLIO" isCollection="false">
-<dmn:itemComponent id="F001" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="INF030" name="INF030" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="PORTFOLIO_ID1" name="PORTFOLIO_ID1" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="POSITION_ID1" name="POSITION_ID1" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="POSITION_ID2" name="POSITION_ID2" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="RLV009" name="RLV009" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP061" name="SBP061" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP063" name="SBP063" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP064" name="SBP064" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP065" name="SBP065" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP066" name="SBP066" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP067" name="SBP067" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP201" name="SBP201" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP202" name="SBP202" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP203" name="SBP203" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP204" name="SBP204" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP205" name="SBP205" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP211" name="SBP211" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP221" name="SBP221" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP231" name="SBP231" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP241" name="SBP241" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="SBP251" name="SBP251" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
-<dmn:itemComponent id="TYP675" name="TYP675" isCollection="false"><dmn:typeRef>TYP675</dmn:typeRef></dmn:itemComponent>
+<dmn:itemDefinition name="POSITION_TO_PORTFOLIO" id="B22A5A67-E7A8-4ED4-A30E-37C3E29711B2" isCollection="false">
+<dmn:itemComponent id="E95B96AD-8844-4CE3-A2B3-8B876BA2CF20" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="499013A5-D3CE-4474-BCCB-D8682A6ABCA2" name="INF030" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="A4FDA1DB-F3DD-495D-98C7-C891DCA1F6D5" name="PORTFOLIO_ID1" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="659AE558-B937-4D49-A5E1-112DBD7BA012" name="POSITION_ID1" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="F7B94EF6-E047-4D2E-A299-2B1CD6E2054B" name="POSITION_ID2" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="29769E4A-691E-4883-AAC9-36667E13C005" name="RLV009" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="674B1E94-5B45-4983-9EE7-AD6C6D3B375A" name="SBP061" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="5C7ACBE4-8ABE-454C-B79F-2E87768468C5" name="SBP063" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="5A775C6E-E95B-496A-B884-4CE3B2B38B87" name="SBP064" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="6BA2CF20-4990-413A-9D3C-E474DCCBD868" name="SBP065" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="2A6ABCA2-A4FD-4A1D-AF3D-D95D48C7C891" name="SBP066" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="DCA1F6D5-659A-4E55-AB93-7D4985E1112D" name="SBP067" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="BD7BA012-F7B9-44EF-9E04-7D2EA2992B1C" name="SBP201" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="D6E2054B-2976-49E4-A691-E8838AC93666" name="SBP202" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="7E13C005-674B-41E9-95B4-59837EE7AD6C" name="SBP203" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="6D3B375A-5C7A-4CBE-98AB-E54CD79F2E87" name="SBP204" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="768468C5-5A77-45C6-BE95-B96AD8844CE3" name="SBP205" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="B2B38B87-6BA2-4CF2-8499-013A5D3CE474" name="SBP211" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="DCCBD868-2A6A-4BCA-8A4F-DA1DBF3DD95D" name="SBP221" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="48C7C891-DCA1-4F6D-9659-AE558B937D49" name="SBP231" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="85E1112D-BD7B-4A01-8F7B-94EF6E047D2E" name="SBP241" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="A2992B1C-D6E2-4054-A297-69E4A691E883" name="SBP251" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="8AC93666-7E13-4C00-9674-B1E945B45983" name="TYP675" isCollection="false"><dmn:typeRef>TYP675</dmn:typeRef></dmn:itemComponent>
 </dmn:itemDefinition>
-<dmn:itemDefinition id="RELEVANCE_MODULE" name="RELEVANCE_MODULE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_RELEVANCE_MODULE"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
-<dmn:itemDefinition id="TYP675" name="TYP675" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="DEF_TYP675"><dmn:text>0,1,11,12,2,21,22,3,30</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="4DF585EC-DCE9-4BD3-AB0C-DB3B55EB2EB0" name="RELEVANCE_MODULE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="3DDAA359-2718-4E2E-BB11-726769EF6691"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="A4835AC9-4222-43EC-B81B-123081A54174" name="TYP675" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="15833EA3-AD3C-42DE-9331-65C3ACBE04BB"><dmn:text>0,1,11,12,2,21,22,3,30</dmn:text></dmn:allowedValues></dmn:itemDefinition>
 </dmn:definitions>
