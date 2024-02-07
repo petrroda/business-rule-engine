@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/A360Mapping_POSITION_TO_PORTFOLIO" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_AAAB7570-449A-4B80-93D8-8E89D17B73B3" name="A360Mapping_POSITION_TO_PORTFOLIO" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/_2A5A67F7-A9ED-45B3-8F38-C3F29812B246">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="POSITION_TO_PORTFOLIO" id="_3CFFE179-B599-4DE0-B597-3DD4CE32C188" isCollection="false">
+<dmn:itemComponent id="_7B4A4B14-10D4-4395-A98C-2288B3D6B57C" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_FC645451-E1A3-4D34-93A3-C7639637A552" name="INF030" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_D6C15E40-2965-4387-B5CE-D127DD142B06" name="PORTFOLIO_ID1" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_B20C6999-A646-4F33-A9A7-F42C78E78C06" name="POSITION_ID1" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_A62A2194-956E-46A8-BC4A-2FE27B3E2971" name="POSITION_ID2" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_1A1352BE-EEF7-49B4-A8DE-EC4972CC3CD2" name="RLV009" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_1BF77026-E5E6-4B3B-BD3D-5F3547C1346D" name="SBP061" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_C56028A7-1FFE-41BD-85DD-2E0D5D771D41" name="SBP063" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_E3611CC5-7B4A-44B1-910D-4395898C2288" name="SBP064" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_B3D6B57C-FC64-4545-8E1A-3D3453A3C763" name="SBP065" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_9637A552-D6C1-45E4-8296-5387E5CED127" name="SBP066" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_DD142B06-B20C-4699-AA64-6F3389A7F42C" name="SBP067" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_78E78C06-A62A-4219-9956-E6A8DC4A2FE2" name="SBP201" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_7B3E2971-1A13-452B-BEEF-79B488DEEC49" name="SBP202" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_72CC3CD2-1BF7-4702-9E5E-6B3BED3D5F35" name="SBP203" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_47C1346D-C560-428A-91FF-E1BD05DD2E0D" name="SBP204" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_5D771D41-E361-41CC-97B4-A4B1410D4395" name="SBP205" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_898C2288-B3D6-4B57-AFC6-45451E1A3D34" name="SBP211" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_53A3C763-9637-4A55-8D6C-15E402965387" name="SBP221" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_E5CED127-DD14-42B0-9B20-C6999A646F33" name="SBP231" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_89A7F42C-78E7-48C0-9A62-A2194956E6A8" name="SBP241" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_DC4A2FE2-7B3E-4297-81A1-352BEEEF79B4" name="SBP251" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_88DEEC49-72CC-43CD-81BF-77026E5E6B3B" name="TYP675" isCollection="false"><dmn:typeRef>TYP675</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="_E3BB0DDB-3C55-4FB2-BC14-EEAA3592829E" name="RELEVANCE_MODULE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_2EDB2173-686A-4FF6-991B-4935ADA42324"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_ECE81C12-3181-4A64-8742-6943FB4AE3D3" name="TYP675" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_DF743166-C4BC-4BF0-9BBE-209D4A0EA577"><dmn:text>0,1,11,12,2,21,22,3,30</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:inputData name="input" id = "_78424D21-6785-4D2F-A56C-56AD48518FE8"><dmn:extensionElements/><dmn:variable name="Input" id = "_2734C486-BA28-40DC-8591-CF75EE9E1309"/></dmn:inputData><dmndi:DMNDI><dmndi:DMNDiagram id="_CCCD5793-66BC-4DA2-950A-B1AB0E9D55D1" name="DRG"><di:extension><kie:ComponentsWidthsExtension/></di:extension><dmndi:DMNShape id="dmnshape-drg-_4C3C4929-CB1B-43D1-925A-E125BA34D068" dmnElementRef="_78424D21-6785-4D2F-A56C-56AD48518FE8" isCollapsed="false"><dmndi:DMNStyle><dmndi:FillColor red="255" green="255" blue="255"/><dmndi:StrokeColor red="0" green="0" blue="0"/><dmndi:FontColor red="0" green="0" blue="0"/></dmndi:DMNStyle><dc:Bounds x="402" y="350" width="100" height="50"/><dmndi:DMNLabel/></dmndi:DMNShape></dmndi:DMNDiagram></dmndi:DMNDI>
+</dmn:definitions>

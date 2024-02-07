@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/A360Mapping_PLEDGE_R" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_B7DB8CFA-A62A-4159-9956-DA98DC4A2436" name="A360Mapping_PLEDGE_R" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/_7B235870-5A17-452B-BEDF-A8A488CDEC48">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="PLEDGE_R" id="_62BC3BD2-5BFB-47F6-9E9E-AB3BEC328F74" isCollection="false">
+<dmn:itemComponent id="_8564B4DC-74A7-448B-9633-BD2A0917A764" name="AE009" isCollection="false"><dmn:typeRef>AE009</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_980AD0E2-78EE-4293-A1BC-352BAAAB7571" name="AE012" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_849AB819-3DC9-4FC9-B1BB-73B36A5A67FB" name="C273" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_B9ED5B35-478C-4447-A826-B2863CF0F1CA" name="D923" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_C599EF0D-5A83-4DD4-BE36-C1C81770AFBC" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_4C0E43A1-8658-4D28-97ED-67179B825546" name="PER733" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_CE1AEE34-53AE-4C82-9924-8726DD68C5B5" name="PLEDGE_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_C2925394-A69A-49D3-999C-43BC68D1D756" name="POOL_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_56246B43-8564-4B4D-A74A-748B6633BD2A" name="POSITION_ID3" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_0917A764-980A-4D0E-878E-E293C1BC352B" name="POSITION_ID4" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_AAAB7571-849A-4B81-A3DC-9FC9D1BB73B3" name="TYP750" isCollection="false"><dmn:typeRef>TYP750</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="_4D1102DB-D6AA-4F11-B6B8-4EE5DF47D2D9" name="AE009" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_2881B1CD-5D1E-454A-8975-9E39680E7828"><dmn:text>0,1,10,11,12,2,3,4,5,6,7,8,9</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_9C936657-D02B-4FF4-964B-0D934A359836" name="TYP750" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_EE79D6C6-D3A3-464A-9B7A-BAE38AAD53CC"><dmn:text>0,1,2,3,4,5,6</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:inputData name="input" id = "_79E2E866-6735-47C5-9967-5C5ED85B859C"><dmn:extensionElements/><dmn:variable name="Input" id = "_7744BE3B-1A27-4B87-9A91-BE1F389F03A4"/></dmn:inputData><dmndi:DMNDI><dmndi:DMNDiagram id="_D2CD463C-BBBC-4868-895A-BC91A4EDA1DA" name="DRG"><di:extension><kie:ComponentsWidthsExtension/></di:extension><dmndi:DMNShape id="dmnshape-drg-_E2CC84C4-7B6B-4781-ACA0-E6C46589D458" dmnElementRef="_79E2E866-6735-47C5-9967-5C5ED85B859C" isCollapsed="false"><dmndi:DMNStyle><dmndi:FillColor red="255" green="255" blue="255"/><dmndi:StrokeColor red="0" green="0" blue="0"/><dmndi:FontColor red="0" green="0" blue="0"/></dmndi:DMNStyle><dc:Bounds x="402" y="350" width="100" height="50"/><dmndi:DMNLabel/></dmndi:DMNShape></dmndi:DMNDiagram></dmndi:DMNDI>
+</dmn:definitions>

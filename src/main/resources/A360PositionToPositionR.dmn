@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/A360Mapping_POSITION_TO_POSITION_R" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_9B241A99-9A64-46E7-989A-7E82CB7DB8CF" name="A360Mapping_POSITION_TO_POSITION_R" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/_AA62A259-4956-4EA9-ADC4-A24367B23587">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="POSITION_TO_POSITION_R" id="_05A1752B-EE35-40D0-ADD2-3429DB712813" isCollection="false">
+<dmn:itemComponent id="_DF43D299-2481-4718-B5D1-E5F625759E35" name="B013" isCollection="false"><dmn:typeRef>EXPOSURE_CLASS_SA</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_680E7824-9C93-4121-9D02-7FF412F70993" name="B042" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_06315732-EE79-4D6C-9C36-32055B6ABAE3" name="B156" isCollection="false"><dmn:typeRef>B156</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_4AAD5E8C-79E2-4D86-9673-13C505674C5E" name="B302" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_985B859C-773F-47E2-9162-3B775A917E1F" name="B303" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_348F0364-D28D-442E-ABBB-C868255ABC91" name="B314" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_64E9A09A-E28C-484C-93B6-B7818BAFE6C4" name="B615" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_2149D414-A923-4C35-94D1-1029AD6AAE11" name="B616" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_E6B84EE5-DF43-4D29-A248-1718D5D1E5F6" name="B627" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_25759E35-680E-4782-99C9-31213D027FF4" name="B628" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_9A7F821B-8EB8-4C0A-A67E-25E4D5AEAA8D" name="B642" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_C4E2436B-B336-4D71-9F17-960EEE0B9B5C" name="B650" isCollection="false"><dmn:typeRef>B650</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_8DEFC4D7-21C3-41D2-90FB-707AE9EAB40E" name="B651" isCollection="false"><dmn:typeRef>EXPOSURE_CLASS_IRB</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_D329F798-BC17-48BD-A5A0-6CA7144350D1" name="B652" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_9DD24429-EB72-4281-97A1-51C5BB4E4F18" name="B751" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_14287D5C-A8C2-46C9-A32A-B5BCFC6898A1" name="B752" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_35E33789-7E31-4C67-B67B-A6922AC19E80" name="B753" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_6D697C8E-9DED-426B-BD18-6F0AC241B999" name="B754" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_A68AF87C-9A7F-4821-A8EB-8C0AA67E25E4" name="B755" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_D5AEAA8D-C4E2-4436-AB33-6D715F17960E" name="B756" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_EE0B9B5C-8DEF-4C4D-921C-31D250FB707A" name="B770" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_E9EAB40E-D329-4F79-ABC1-78BDC5A06CA7" name="CRE616" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_144350D1-9DD2-4442-AEB7-228137A151C5" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_BB4E4F18-1428-47D5-AA8C-26C9B32AB5BC" name="I022" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_FC6898A1-35E3-4378-A7E3-1C67D67BA692" name="I118" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_2AC19E80-6D69-47C8-B9DE-D26BDD186F0A" name="I176" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_C241B999-A68A-4F87-A9A7-F821B8EB8C0A" name="I310" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_A67E25E4-D5AE-4AA8-BC4E-2436BB336D71" name="I311" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_5F17960E-EE0B-49B5-A8DE-FC4D721C31D2" name="INF030" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_50FB707A-E9EA-4B40-BD32-9F798BC178BD" name="L003" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_C5A06CA7-1443-450D-89DD-24429EB72281" name="L038" isCollection="false"><dmn:typeRef>L038</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_37A151C5-BB4E-44F1-A142-87D5CA8C26C9" name="MOD004" isCollection="false"><dmn:typeRef>MOD004</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_B32AB5BC-FC68-498A-835E-337897E31C67" name="OBJECT_ID1" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_D67BA692-2AC1-49E8-86D6-97C8E9DED26B" name="PER020" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_DD186F0A-C241-4B99-AA68-AF87C9A7F821" name="PER025" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_B8EB8C0A-A67E-425E-9D5A-EAA8DC4E2436" name="POOL_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_BB336D71-5F17-4960-BEE0-B9B5C8DEFC4D" name="POSITION_ID0" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_721C31D2-50FB-4707-AE9E-AB40ED329F79" name="POSITION_ID1" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_8BC178BD-C5A0-46CA-9144-350D19DD2442" name="POSITION_ID124" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_9EB72281-37A1-451C-9BB4-E4F1814287D5" name="POSITION_ID2" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_CA8C26C9-B32A-4B5B-AFC6-898A135E3378" name="RLV009" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_97E31C67-D67B-4A69-82AC-19E806D697C8" name="SBP212" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_E9DED26B-DD18-46F0-AC24-1B999A68AF87" name="SBP222" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_C9A7F821-B8EB-48C0-AA67-E25E4D5AEAA8" name="SBP232" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_DC4E2436-BB33-46D7-85F1-7960EEE0B9B5" name="SBP242" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_C8DEFC4D-721C-431D-850F-B707AE9EAB40" name="SBP252" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_ED329F79-8BC1-478B-BC5A-06CA7144350D" name="TYP700" isCollection="false"><dmn:typeRef>TYP700</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_19DD2442-9EB7-4228-837A-151C5BB4E4F1" name="VAL701" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_814287D5-CA8C-426C-AB32-AB5BCFC6898A" name="VAL702" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="_F5C586C7-D9CD-4C15-ACC0-75EE9B141A88" name="B156" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_89579E76-B896-4E71-8A7D-A7BE9966D15D"><dmn:text>0,10,100,110,120,130,140,145,15,150,160,170,180,190,20,200,210,215,220,30,300,40,50,60,70,80,90,95</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_3C49D997-CB3D-4132-9AB2-25C6F4E0685E" name="B650" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_DDDEA8A4-B7CD-4EB3-A61F-C2FC14EEA6E6"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_9D8D9A3E-DC21-48E6-A7AB-067ACB49E5B9" name="EXPOSURE_CLASS_IRB" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_603324FD-F8CC-4233-88DA-61170269F40B"><dmn:text>0,10,20,30,31,40,41,42,50,60,70</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_4AA3D3EF-7F31-476C-9B97-B15B8A219A4A" name="EXPOSURE_CLASS_SA" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_BEB57879-024D-4226-986D-20B56C57BA58"><dmn:text>0,10,12,15,18,20,25,30,40,45,5,50,60,70,80,90,91</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_119BF8E8-F5C5-486C-9D9C-DC15ACC075EE" name="L038" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_9B141A88-8957-49E7-9B89-6E710A7DA7BE"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_9966D15D-3C49-4D99-9CB3-D1325AB225C6" name="MOD004" isCollection="false"><dmn:typeRef>string</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_F4E0685E-DDDE-4A8A-9B7C-DEB3C61FC2FC"><dmn:text>"ANACREDIT","AUDIT_REP_OV","AUDIT_REPORT","BASEL1","COREP_AIRB","ECB_DE","ECB_LU","ESG","FCTY_ST_OV_0","FCTY_ST_OV_1","FCTY_ST_OV_2","FCTY_STAT","FCTY_STAT_OV","FCV","FCV_09","FINREP_CRE","FINREP_ITS","FINREP_LU","FINREP_RRE","IP_LO1_CRE_0","IP_LO2_CRE_0"</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_14EEA6E6-9D8D-49A3-BDC2-18E687AB067A" name="RELEVANCE_MODULE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_CB49E5B9-6033-424F-BF8C-C23318DA6117"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_0269F40B-4AA3-4D3E-B7F3-176C4B97B15B" name="TYP700" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_8A219A4A-BEB5-4787-A024-D226786D20B5"><dmn:text>1,2,3,4,5,6,7,8</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_6C57BA58-119B-4F8E-AF5C-586C7D9CDC15" name="YES_NO_FLAG" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_7AAD53CC-68E1-4D76-9673-57C449674B5E"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:inputData name="input" id = "_D84A859C-7733-4BE2-A1A2-7B765A91BE1F"><dmn:extensionElements/><dmn:variable name="Input" id = "_388EF294-C2BD-4463-ABBA-C7581959AB91"/></dmn:inputData><dmndi:DMNDI><dmndi:DMNDiagram id="_93ED90CA-E2CC-484C-97B6-B780CB9FE5C4" name="DRG"><di:extension><kie:ComponentsWidthsExtension/></di:extension><dmndi:DMNShape id="dmnshape-drg-_5489D447-A927-4C38-94D0-102CAC6AAE01" dmnElementRef="_D84A859C-7733-4BE2-A1A2-7B765A91BE1F" isCollapsed="false"><dmndi:DMNStyle><dmndi:FillColor red="255" green="255" blue="255"/><dmndi:StrokeColor red="0" green="0" blue="0"/><dmndi:FontColor red="0" green="0" blue="0"/></dmndi:DMNStyle><dc:Bounds x="402" y="350" width="100" height="50"/><dmndi:DMNLabel/></dmndi:DMNShape></dmndi:DMNDiagram></dmndi:DMNDI>
+</dmn:definitions>

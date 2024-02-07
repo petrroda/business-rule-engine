@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/A360Mapping_MARKET_CORRELATION" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_92829E6E-2061-4736-96AF-46691F8935AD" name="A360Mapping_MARKET_CORRELATION" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/_A42323E1-3810-4523-881A-9417415833FF">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="MARKET_CORRELATION" id="_8AE7C6D4-7431-465C-9ACB-E45BBE609D89" isCollection="false">
+<dmn:itemComponent id="_6CA7BE99-5191-4483-A45D-987CB3913256" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_A12576E4-9064-41AD-BCE9-7A377BDDB385" name="INSTRUMENT_ID3" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_1BB2AC14-AEA6-4E55-B8D9-A2ADB217E642" name="INSTRUMENT_ID4" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_6BF635CB-45E5-4696-B232-4ACE8CC12318" name="MAR018" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_CA601701-54F3-4BB4-9A38-29F7F3162837" name="MAR020" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_87A0577A-2099-446B-BA53-334F24921634" name="MARKET_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_192BA528-5269-4440-88BE-8D7E4844276D" name="MAT001" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_8BDC055C-CF71-4AE9-A130-98889535E627" name="MAT930" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_896D71BA-6CA7-4BE9-A519-1483845D987C" name="MAT931" isCollection="false"><dmn:typeRef>TERM_UNIT_WITH_SUM</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_B3913256-A125-476E-9906-41ADDCE97A37" name="MAT940" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_7BDDB385-1BB2-4AC1-9AEA-6E55D8D9A2AD" name="MAT941" isCollection="false"><dmn:typeRef>TERM_UNIT_WITH_SUM</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="_E227896D-31B6-47D6-9BA5-9119C08E805D" name="TERM_UNIT_WITH_SUM" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_597C7E9C-ED16-4ACD-876E-F9B241A998A6"><dmn:text>0,1,2,3,4</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:inputData name="input" id = "_8AE77C99-7E81-41B7-BB8C-FAA66E15D4D5"><dmn:extensionElements/><dmn:variable name="Input" id = "_ADA98DC4-E242-46BB-835C-705E1696FEED"/></dmn:inputData><dmndi:DMNDI><dmndi:DMNDiagram id="_FA8A4C8C-DEC4-4C62-8C30-D25FFB7F6AE9" name="DRG"><di:extension><kie:ComponentsWidthsExtension/></di:extension><dmndi:DMNShape id="dmnshape-drg-_EAB3FEC3-28F7-487B-A177-ADB59F6BA713" dmnElementRef="_8AE77C99-7E81-41B7-BB8C-FAA66E15D4D5" isCollapsed="false"><dmndi:DMNStyle><dmndi:FillColor red="255" green="255" blue="255"/><dmndi:StrokeColor red="0" green="0" blue="0"/><dmndi:FontColor red="0" green="0" blue="0"/></dmndi:DMNStyle><dc:Bounds x="402" y="350" width="100" height="50"/><dmndi:DMNLabel/></dmndi:DMNShape></dmndi:DMNDiagram></dmndi:DMNDI>
+</dmn:definitions>

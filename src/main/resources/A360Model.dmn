@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/A360Mapping_MODEL" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_E52E3611-C818-4B0A-8BC5-11E43A18A9CD" name="A360Mapping_MODEL" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/_289CED6B-17DB-4825-9462-F2AEE4553AFC">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="MODEL" id="_8339348B-262D-46CC-9F51-2925498F6DBA" isCollection="false">
+<dmn:itemComponent id="_D37AAD53-CC68-4E1D-9666-7357B449674B" name="B092" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_5ED84A85-9C77-433B-B2A1-A27B765A91BE" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_1F388EF2-94C2-4BD4-93CB-BAC7571959AB" name="INF030" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_9193EC90-CAE2-4CC8-9C37-B6B780CB9FE5" name="MODEL_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:inputData name="input" id = "_CDB3751A-B2AC-414A-BA6E-55D8D9A2ADB2"><dmn:extensionElements/><dmn:variable name="Input" id = "_17E6326B-F625-4CA4-9E56-96F2223ACE8C"/></dmn:inputData><dmndi:DMNDI><dmndi:DMNDiagram id="_B12318CA-5017-4015-9E3B-B36A3829E7F3" name="DRG"><di:extension><kie:ComponentsWidthsExtension/></di:extension><dmndi:DMNShape id="dmnshape-drg-_16183687-A057-47A2-8994-5BDA43334F24" dmnElementRef="_CDB3751A-B2AC-414A-BA6E-55D8D9A2ADB2" isCollapsed="false"><dmndi:DMNStyle><dmndi:FillColor red="255" green="255" blue="255"/><dmndi:StrokeColor red="0" green="0" blue="0"/><dmndi:FontColor red="0" green="0" blue="0"/></dmndi:DMNStyle><dc:Bounds x="402" y="350" width="100" height="50"/><dmndi:DMNLabel/></dmndi:DMNShape></dmndi:DMNDiagram></dmndi:DMNDI>
+</dmn:definitions>

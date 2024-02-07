@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/A360Mapping_POSITION_R" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_44A19A9D-D399-4CFD-9B28-DC8355562F2B" name="A360Mapping_POSITION_R" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/_FE4563B0-D834-4A34-AB26-2E6DC60512A2">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="POSITION_R" id="_6498F6DB-AD37-4EAD-93CC-7CE1D7AAAB35" isCollection="false">
+<dmn:itemComponent id="_6C7BCBF4-9BBE-464D-B8A0-3E97778468D6" name="B147" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_5A785D6F-E96C-496A-B884-5CF3C2B38C88" name="CRI301" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_6BA2C021-4991-414B-9E3D-E574DCCCD979" name="CRI302" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_3A6BCDA2-B50E-4B1E-A03D-D95D58C7C892" name="EXC300" isCollection="false"><dmn:typeRef>EXC300</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_DCB107D5-769A-4E56-ABA3-8D4A85E2213D" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_BE7BB022-F7C9-45F0-9E15-8E3EA3992C2D" name="K150" isCollection="false"><dmn:typeRef>K150</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_E6E2065B-3A86-4AF4-A791-F8939ADA4676" name="K171" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_8E13C115-675C-41EA-95B4-59847FF8AE7C" name="K250" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_7D4B475A-6C7B-4CBF-99BB-E64DD8A03E97" name="POSITION_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_778468D6-5A78-45D6-BE96-C96AD8845CF3" name="PTY801" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="_BAAAB757-1849-4AB8-893D-C9FC9D1BB73B" name="EXC300" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_36A5A67F-BB9E-4D5B-9547-8C447A816B28"><dmn:text>1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_63CFFF1C-AC59-49EF-8D5A-83DD4DE36C1C" name="K150" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_81770AFB-C4C0-4E43-A186-58D2857ED671"><dmn:text>0,10,11,20,21,31,32,33,45,50,60,70,80,85,94,95</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_79B82554-6CE1-4AEE-9453-AEC823924872" name="YES_NO_FLAG" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_6DD68C5B-5C29-4253-A4A6-9A9D3799C42B"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:inputData name="input" id = "_C68D1D75-6562-446B-9385-64B4DC74A748"><dmn:extensionElements/><dmn:variable name="Input" id = "_B6633BD2-A091-47A7-9498-0AD0E278EE29"/></dmn:inputData><dmndi:DMNDI><dmndi:DMNDiagram id="_3C1BC352-BAAA-4B75-9184-9AB8193DC9FC" name="DRG"><di:extension><kie:ComponentsWidthsExtension/></di:extension><dmndi:DMNShape id="dmnshape-drg-_9D1BB73B-36A5-4A67-BBB9-ED5B35478C44" dmnElementRef="_C68D1D75-6562-446B-9385-64B4DC74A748" isCollapsed="false"><dmndi:DMNStyle><dmndi:FillColor red="255" green="255" blue="255"/><dmndi:StrokeColor red="0" green="0" blue="0"/><dmndi:FontColor red="0" green="0" blue="0"/></dmndi:DMNStyle><dc:Bounds x="402" y="350" width="100" height="50"/><dmndi:DMNLabel/></dmndi:DMNShape></dmndi:DMNDiagram></dmndi:DMNDI>
+</dmn:definitions>

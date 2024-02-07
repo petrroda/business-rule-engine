@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/A360Mapping_HOLDING" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_9D403A92-3C34-474D-8101-8AC6A9E01E6A" name="A360Mapping_HOLDING" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/_83DE5DE3-2C19-4924-A160-7D5D1E4F6146">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="HOLDING" id="_58D3558F-D772-449B-A311-12DF27EE412E" isCollection="false">
+<dmn:itemComponent id="_9F798BC1-78AD-4C5A-86CA-7144350D09DD" name="B908" isCollection="false"><dmn:typeRef>B908</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_23429DB7-1281-437A-851C-5BB4E4F18142" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_87D5C98C-26C8-4B32-AB5B-CFC68989135E" name="HLD007" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_327897E3-1B67-4D67-AA59-22AC19E806D6" name="HLD008" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_97C8E9CE-D16B-4DD1-A6F0-AC241A999A68" name="HLD010" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_AF77C9A7-F821-4B8E-A8C0-AA66E25D4D5A" name="HLD011" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_EAA8DC4E-2436-4BB3-96D7-15E17960EEEF" name="HLD012" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_B9B4C8DE-EC4D-4721-A31D-25FFB706AE9E" name="HLD013" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_AB40ED32-9F79-48BC-878A-DC5A06CA7144" name="HLD015" isCollection="false"><dmn:typeRef>HLD015</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_350D09DD-2342-49DB-9128-137A151C5BB4" name="HLD018" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_E4F18142-87D5-4C98-A26C-8B32AB5BCFC6" name="HLD019" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_8989135E-3278-497E-91B6-7D67BA5922AC" name="HLD021" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_19E806D6-97C8-4E9C-BD16-BDD186F0AC24" name="HLD022" isCollection="false"><dmn:typeRef>HLD022</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_1A999A68-AF77-4C9A-9F82-1B8EB8C0AA66" name="HLD023" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_E25D4D5A-EAA8-4DC4-B243-6BB336D715E1" name="HLD025" isCollection="false"><dmn:typeRef>YES_NO_FLAG</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_7960EEEF-B9B4-4C8D-BEC4-D721C31D25FF" name="J301" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_B706AE9E-AB40-4ED3-89F7-98BC178ADC5A" name="J302" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_06CA7144-350D-409D-B234-29DB7128137A" name="J303" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_151C5BB4-E4F1-4814-887D-5C98C26C8B32" name="J304" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_AB5BCFC6-8989-4135-B327-897E31B67D67" name="J305" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_BA5922AC-19E8-406D-997C-8E9CED16BDD1" name="J306" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_86F0AC24-1A99-49A6-AAF7-7C9A7F821B8E" name="J307" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_B8C0AA66-E25D-44D5-AEAA-8DC4E2436BB3" name="M009" isCollection="false"><dmn:typeRef>M009</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_36D715E1-7960-4EEE-BB9B-4C8DEEC4D721" name="MAT085" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_C31D25FF-B706-4AE9-BAB4-0ED329F798BC" name="MAT086" isCollection="false"><dmn:typeRef>date</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_178ADC5A-06CA-4714-9350-D09DD23429DB" name="PARTNER_ID3" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_7128137A-151C-45BB-9E4F-1814287D5C98" name="PARTNER_ID4" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_C26C8B32-AB5B-4CFC-9898-9135E327897E" name="PER180" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_31B67D67-BA59-422A-A19E-806D697C8E9C" name="PER181" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_ED16BDD1-86F0-4AC2-91A9-99A68AF77C9A" name="RLV009" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_7F821B8E-B8C0-4AA6-9E25-D4D5AEAA8DC4" name="RLV024" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="_23181A64-1742-4694-9FB4-AE3D3EF74317" name="B908" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_6C4BCBF1-5BBE-4219-B4A0-EB57878424D2"><dmn:text>0,1,2</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_16786D20-A56C-456A-B485-19FF82735C58" name="HLD015" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_6BA280DC-05A1-4CF7-9EE9-E1309CCCD579"><dmn:text>1,2,3,4</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_366BCDA3-750A-4B2A-A0E9-D55D14C3C492" name="HLD022" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_9DB1B3D1-325A-4E22-9CA3-4D0685EDDDEA"><dmn:text>110,120,130,210,220,310,320,330,360,410,510,710,810</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_CE3BB1DD-B3C6-45FB-8FC1-4EEAA3592829" name="M009" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_E2EDC218-3687-4AF0-9791-B4935BDA4332"><dmn:text>0,1,2,3,4,5,6</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_4ECE81C1-2318-41A6-9174-26944FB4AE3D" name="RELEVANCE_MODULE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_3EF74317-6C4B-4CBF-85BB-E219E4A0EB57"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_878424D2-1678-46D2-8A56-C56AD48519FF" name="YES_NO_FLAG" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_82735C58-6BA2-480D-A05A-1CF75EE9E130"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:inputData name="input" id = "_9CCCD579-366B-4CDA-9750-AB2AB0E9D55D"><dmn:extensionElements/><dmn:variable name="Input" id = "_14C3C492-9DB1-4B3D-8325-AE225CA34D06"/></dmn:inputData><dmndi:DMNDI><dmndi:DMNDiagram id="_85EDDDEA-CE3B-4B1D-BB3C-65FB2FC14EEA" name="DRG"><di:extension><kie:ComponentsWidthsExtension/></di:extension><dmndi:DMNShape id="dmnshape-drg-_A3592829-E2ED-4C21-A368-7AF06791B493" dmnElementRef="_9CCCD579-366B-4CDA-9750-AB2AB0E9D55D" isCollapsed="false"><dmndi:DMNStyle><dmndi:FillColor red="255" green="255" blue="255"/><dmndi:StrokeColor red="0" green="0" blue="0"/><dmndi:FontColor red="0" green="0" blue="0"/></dmndi:DMNStyle><dc:Bounds x="402" y="350" width="100" height="50"/><dmndi:DMNLabel/></dmndi:DMNShape></dmndi:DMNDiagram></dmndi:DMNDI>
+</dmn:definitions>

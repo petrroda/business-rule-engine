@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://github.com/kiegroup/drools/kie-dmn/A360Mapping_OP_RISK" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_5C6FE95B-96AD-4884-9CF3-B2B38C876BA2" name="A360Mapping_OP_RISK" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://github.com/kiegroup/drools/kie-dmn/_C0214990-14A5-4D3C-B574-DCCBD8692A6A">
+<dmn:extensionElements/>
+<dmn:itemDefinition name="OP_RISK" id="_CCA2A4FE-A1DB-4F3D-B95D-48C7C891DCA1" isCollection="false">
+<dmn:itemComponent id="_EBB46A38-29F3-4FEC-8183-687A0177A2B5" name="F001" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_945BDA43-334F-4DF9-8C23-4192B6528526" name="I205" isCollection="false"><dmn:typeRef>I205</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_9440B4BE-3D3E-4084-9276-D4BDC015CCF3" name="INF030" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_19E4A1EB-5888-4953-9D22-7886D31B66C6" name="O001" isCollection="false"><dmn:typeRef>O001</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_48B262D6-DC50-4512-A264-98F6DBAD37DA" name="O003" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_D43BC6CE-1D7A-4A9B-9570-449AA8052D88" name="O004" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_E79DC7B3-3BD2-4A1A-87E7-A8E91BE1E38C" name="O005" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_EF29812B-D363-4CBB-AC79-B199DAB91933" name="O006" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_C90CAE2C-B881-437F-9F7C-0CB9FE514548" name="O007" isCollection="false"><dmn:typeRef>number</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_CD447E82-6138-4B82-80F1-CAC6E9E01E6E" name="O008" isCollection="false"><dmn:typeRef>O008</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_832E52E3-611D-4918-A1A0-BC521E43A18A" name="OP_RISK_ID" isCollection="false"><dmn:typeRef>string</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_9CD399CF-D7B2-47DB-A255-562F2BEE4563" name="OPR001" isCollection="false"><dmn:typeRef>OPR001</dmn:typeRef></dmn:itemComponent>
+<dmn:itemComponent id="_AFD834A3-48B2-462D-9DC5-0512A26498F6" name="RLV009" isCollection="false"><dmn:typeRef>RELEVANCE_MODULE</dmn:typeRef></dmn:itemComponent>
+</dmn:itemDefinition>
+<dmn:itemDefinition id="_1E6A84DE-5DF4-43D1-A924-81717D5D1E4F" name="I205" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_615659D3-558F-4D77-849C-831112DF27FE"><dmn:text>1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_412E7098-3F63-4047-82EE-69C6B5C2622F" name="O001" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_54B69BAD-33AA-4D5E-AC78-E1D76667313C"><dmn:text>0,10,20,30,40,50,60,70,80</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_405674B5-E985-4A85-AC77-3E7E261623B7" name="O008" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_65A917E1-F348-4EF3-94C2-7D42E8BBAC85"><dmn:text>0,1,2,3</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_8155ABB9-163E-4990-AAE2-8C84C33B6B78" name="OPR001" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_08B9FE5C-4204-49D4-83A9-23C3474D0102"><dmn:text>10,11,12,13,20,21,22,23,24,30,31,32</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:itemDefinition id="_8AC6AAE0-1E6A-484D-B5DF-43D199248171" name="RELEVANCE_MODULE" isCollection="false"><dmn:typeRef>number</dmn:typeRef><dmn:allowedValues kie:constraintType="enumeration" id="_7D5D1E4F-6156-459D-9558-FD77249C8311"><dmn:text>0,1</dmn:text></dmn:allowedValues></dmn:itemDefinition>
+<dmn:inputData name="input" id = "_12DF27FE-412E-4709-A3F6-304722EE69C6"><dmn:extensionElements/><dmn:variable name="Input" id = "_B5C2622F-54B6-49BA-B33A-AD5E8C78E1D7"/></dmn:inputData><dmndi:DMNDI><dmndi:DMNDiagram id="_6667313C-4056-474B-9E98-5A859C773E7E" name="DRG"><di:extension><kie:ComponentsWidthsExtension/></di:extension><dmndi:DMNShape id="dmnshape-drg-_261623B7-65A9-417E-8F34-8EF354C27D42" dmnElementRef="_12DF27FE-412E-4709-A3F6-304722EE69C6" isCollapsed="false"><dmndi:DMNStyle><dmndi:FillColor red="255" green="255" blue="255"/><dmndi:StrokeColor red="0" green="0" blue="0"/><dmndi:FontColor red="0" green="0" blue="0"/></dmndi:DMNStyle><dc:Bounds x="402" y="350" width="100" height="50"/><dmndi:DMNLabel/></dmndi:DMNShape></dmndi:DMNDiagram></dmndi:DMNDI>
+</dmn:definitions>
